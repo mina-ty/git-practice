@@ -8,6 +8,12 @@ with open('MOCK_DATA.csv', 'rb') as file:
     result = chardet.detect(raw_data)
     encoding = result['encoding']
     print(f"File encoding: {encoding}")
+    """_summary_
+    This code does the following:
+    1. skjfd
+    2. dfjhkszdf
+    3. sfhkgjlsdfgfd
+    """
 
 # Read the CSV file with the detected encoding
 df = pd.read_csv('MOCK_DATA.csv', encoding=encoding)
